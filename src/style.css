@@ -17,11 +17,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 27px;
 }
 
 h3 {
@@ -88,4 +88,17 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 34px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
 }
